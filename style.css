@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+	background-color: #ccd1d9;
+}
+h1{
+	text-align: center;
+}
+nav{
+	text-align: right;
+	background-color: #2A2F33;
+}
+.menu{
+	padding: 20px;
+
+}
+.container p, li{
+	font-size: 20px;
+	text-align: center;
+	list-style-type: none;
+}
+.menu a{
+	color: grey;
+	text-decoration: none;
+	font-size:14px;
+
+}
+.menu .linkler{
+	margin-right: 30px;
+	margin-left: 30px;
+	transition-property: color;
+	transition-duration: 0.3s;
+}
+.menu .linkler:hover{
+	color:white;
+}
+.menu #marka{
+	font-style: italic;
+	float: left;
+}
+
+
+
+/**Hakkımda Sayfası**/
+#hakkimda{
+	margin-top: 20px;
+	width:80%;
+	margin:auto;
+}
+.ikon{
+	width: 125px;
+	float:left;
+}
+
